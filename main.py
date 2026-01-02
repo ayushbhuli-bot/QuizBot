@@ -146,3 +146,8 @@ if __name__ == '__main__':
     print("🤖 Bot is Running...")
     application.run_polling()
     
+if __name__ == '__main__':
+    keep_alive()  # <--- YE LINE ZAROORI HAI
+    application = ApplicationBuilder().token(TOKEN).build()
+    # ... baaki code same rahega ...
+    
